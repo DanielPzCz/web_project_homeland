@@ -4,9 +4,15 @@
 }
 
 .page {
-  min-width: 1280px;
   margin: auto;
   background-color: #2a2c2f;
   color: #fff;
   font-family: "Inter Regular", sans-serif;
+  padding: 0 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 0;
+  }
 }
