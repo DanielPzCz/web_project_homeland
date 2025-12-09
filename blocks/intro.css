@@ -1,0 +1,33 @@
+.intro {
+  padding: 92px 148px;
+}
+
+.intro__title {
+  width: 830px;
+  font-family: "Inter Black", sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+
+.intro__quote-text {
+  width: 738px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.intro__quote-name {
+  width: 732px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.intro__text {
+  width: 722px;
+  font-size: 16px;
+  font-weight: 400;
+}
