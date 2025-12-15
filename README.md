@@ -1,10 +1,4 @@
-Basándome en el código HTML y CSS que compartiste, aquí están los puntos completados:
-
-## 1. Nombre del proyecto
-
 **TT Art Gallery** (De patria a patria)
-
-## 2. Descripción del proyecto y su funcionalidad
 
 TT Art Gallery es una galería de arte digital que presenta historias y fotografías de diferentes ciudades del mundo: Cricieth (Gales), Berea (Kentucky, EE.UU.), Muramvya (Burundi) y Ciudad de México. El proyecto muestra la diversidad cultural de los profesionales de TripleTen a través de una experiencia visual inmersiva.
 
@@ -15,8 +9,6 @@ La funcionalidad principal incluye:
 - Tarjetas informativas que incluyen datos sobre los artistas/autores
 - Botones interactivos para "comprar obras como NFT"
 - Navegación fluida a través de las diferentes secciones
-
-## 3. Tecnologías y técnicas utilizadas
 
 **Tecnologías:**
 
