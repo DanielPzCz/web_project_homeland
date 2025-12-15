@@ -67,6 +67,7 @@
 
   .intro__quote-text,
   .intro__quote-name {
+    padding: 0 5%;
     line-height: 30px;
   }
   .intro__text {

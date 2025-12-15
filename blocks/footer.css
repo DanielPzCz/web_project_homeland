@@ -6,11 +6,17 @@
   margin: 0 auto;
   font-size: 0.9rem;
   line-height: 16px;
-  padding-top: 15%;
+  padding-top: 5%;
   text-align: center;
 }
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    padding-top: 3%;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 14px;
   }

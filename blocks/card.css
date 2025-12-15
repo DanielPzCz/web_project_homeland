@@ -1,13 +1,143 @@
-.card{}
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 5fr);
+  grid-template-rows: repeat(7, auto);
+  column-gap: 40px;
+  grid-template-areas:
+    "title ."
+    "title artist"
+    "image text"
+    "image text"
+    "button text"
+    ". text";
+}
 
-.card__title{}
+.card__title {
+  font-size: 4.5rem;
+  font-family: "Inter Black", sans-serif;
+  font-weight: 900;
+  line-height: 76px;
+  grid-area: title;
+  margin-bottom: 48px;
+}
 
-.card__artist-heading{}
+.card__artist-info {
+  grid-area: artist;
+  margin-bottom: 48px;
+}
 
-.card__artist-name{}
+.card__artist-heading {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: auto;
+  color: #aaa;
+  margin-bottom: 8px;
+}
 
-.card__text{}
+.card__artist-name {
+  font-size: 1.1rem;
+  line-height: 22px;
+}
 
-.card__image{}
+.card__text {
+  display: flex;
+  flex-direction: column;
+  grid-area: text;
+}
 
-.card__button{}
+.card__paragraph {
+  width: 100%;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 163%;
+  margin-bottom: 25px;
+}
+
+.card__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.card__image {
+  width: 40vw;
+  height: 40vw;
+  grid-area: image;
+  margin-bottom: 48px;
+}
+
+.card__button {
+  width: 60%;
+  height: 48px;
+  grid-area: button;
+  background-image: linear-gradient(90deg, #0278fe, #003a7b);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 0 3%;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas:
+      "title ."
+      "title artist"
+      "image text"
+      "image text"
+      "button text"
+      ". text";
+  }
+
+  .card__title {
+    font-size: 2.6rem;
+    line-height: 46px;
+  }
+
+  .card__artist-name {
+    font-size: 1.1rem;
+  }
+
+  .card__paragraph {
+    font-size: 1rem;
+  }
+
+  .card__button {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .card__title {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-bottom: 30px;
+    padding-left: 5%;
+  }
+
+  .card__artist-info {
+    padding: 0 5%;
+    margin-bottom: 30px;
+  }
+
+  .card__image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .card__text {
+    padding: 0 5%;
+  }
+
+  .card__button {
+    align-self: center;
+    margin-top: 24px;
+  }
+}

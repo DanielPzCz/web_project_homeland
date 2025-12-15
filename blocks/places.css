@@ -1,11 +1,10 @@
-.places{
+.places {
 }
 
-.places__list{
-    list-style: none;
+.places__list {
+  list-style: none;
 }
 
-.places__list-item{
+.places__list-item {
+  margin-bottom: 80px;
 }
-
-.places__card{}
